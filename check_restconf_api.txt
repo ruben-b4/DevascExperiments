@@ -1,0 +1,32 @@
+Tue 19 Aug 2025 03:35:58 PM UTC
+START REST API CALL
+============
+FIRST API CALL
+============
+Status Code: 201
+============
+SECOND API CALL
+============
+Status Code: 200
+Interfaces:
+{
+  "ietf-interfaces:interfaces": {
+    "interface": [
+      {
+        "name": "Loopback199",
+        "description": "RESTCONF => Loopback199",
+        "type": "iana-if-type:softwareLoopback",
+        "enabled": true,
+        "ietf-ip:ipv4": {
+          "address": [
+            {
+              "ip": "10.1.99.1",
+              "netmask": "255.255.255.0"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
+END REST API CALL
